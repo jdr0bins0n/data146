@@ -1,5 +1,5 @@
 # hello-world
 baby's first repository
 
-data146
+hello! this is my first repository :) 
 
