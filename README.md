@@ -1,5 +1,9 @@
-# hello-world
-baby's first repository
+## DATA146
+  #add any links to projects/exercises 
 
-hello! this is my first repository :) 
+## Informal Exercises
+ 
+
+
+## Projects
 
