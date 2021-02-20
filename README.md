@@ -7,3 +7,5 @@ add any links to html files of md projects/exercises with this format ""https://
 
 ## Projects
 
+[Project 1](https://jdr0bins0n.github.io/data146/project1.html)
+
