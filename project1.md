@@ -1,9 +1,6 @@
 ## 1 
 
-__What is a package? What is a library?__
 A package is a space that organizes libraries in a distributable manner. Libraries organize a set of functions that make sense to be together. 
-
-__What are the two steps you need to execute in order to install a package and then make that library of functions accessible to your workspace and current python work session?__
 
 The two steps you need to execute in order to install a package and then make that library accessible is to: 
 
@@ -100,7 +97,7 @@ If I wanted to extract a series of consecutive observations from _n_ position to
 
 ## 8 
 
-API stands for Application Programming Interface. APIs are the interface consumers interact with when requesting access to a remote server. 
+API stands for Application Programming Interface. APIs are the interface consumers interact with when requesting access to a remote server. For example, when accessing COVID-19 tracking data from covidtracking.com, the API is the website's interface, from which we can request data from. 
 
 To construct a request to a remote server and pull from server and write to a local file:
 
