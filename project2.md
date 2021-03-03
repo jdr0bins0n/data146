@@ -17,18 +17,18 @@ A beta distribution is a probabilty distribution that measures the success of an
 
 ![](even.png)
 
-The variables $\alpha$ and $\beta$ describe the probabilities of success in the distribution. Within the beta distribution equation, **$alpha$-1** corresponds to the probability of success of an outcome and **$beta$-1** corresponds to the probability of failure of an outcome. As you increase the $\alpha$ value, the probability of success increases and the distribution shifts to the right (as pictured below)  
+The variables $\alpha$ and $\beta$ describe the probabilities of success in the distribution. Within the beta distribution equation, **alpha-1** corresponds to the probability of success of an outcome and **beta-1** corresponds to the probability of failure of an outcome. As you increase the $\alpha$ value, the probability of success increases and the distribution shifts to the right (as pictured below)  
 
 ![](right_skewed.png)
 
-The mean and median of this plot approximate at 70% -- this is the $\alpha$ value I set the random distribution to.
+The mean and median of this plot approximate at 70% -- this is the alpha value I set the random distribution to.
 
 
-On the other hand, if you increase the $\beta$ value, the probability of failure increases and the distribution shifts to the left (as pictured below) 
+On the other hand, if you increase the beta value, the probability of failure increases and the distribution shifts to the left (as pictured below) 
 
 ![](left_skewed.png)
 
-The mean and median of this plot approximate at 30% -- this is the $\alpha$ value I set the random distribution to. 
+The mean and median of this plot approximate at 30% -- this is the alpha value I set the random distribution to. The beta value was set to 70 
 
 ## 3 
 
@@ -42,3 +42,8 @@ The mean and median of this plot approximate at 30% -- this is the $\alpha$ valu
 ![](log_lifexp_hist.png)
 
 Both graphs look about the same, but the graph with raw data is more helpful. Log transformations are used when some portion of the data is much greater (or much smaller) than the rest of the data. This difference in size creates a not-so-helpful visual of the dataset, as the data is skewed by extraneous data points. When a log trsnsformation is performed, the focus shifts from the actual quantiy of the data point to the _difference in size of data points_, which tends to be a much smaller range than the original, skewed data set. A log transformation is unhelpful in this case becuase the data (life expectancy) already exists on a small scale (from about 0-100). The graphs then has no effect on this data and the graphs will look about the same before and after a log transformation. Even though they look the same, the graph for the inital transformation is more helpful becuase the axis are easier to interpret.
+
+
+## 4 
+
+
