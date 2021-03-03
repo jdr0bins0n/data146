@@ -34,7 +34,9 @@ The mean and median of this plot approximate at 30% -- this is the $\alpha$ valu
 
 ### Histogram of raw data
 
-(insert_image_here)
+![](lifexp_hist.png)
 
 
 ### Histogram of logdata
+
+![](log_lifexp_hist.png)
