@@ -40,3 +40,5 @@ The mean and median of this plot approximate at 30% -- this is the $\alpha$ valu
 ### Histogram of logdata
 
 ![](log_lifexp_hist.png)
+
+Both graphs look about the same, but the graph with raw data is more helpful. Log transformations are used when some portion of the data is much greater (or much smaller) than the rest of the data. This difference in size creates a not-so-helpful visual of the dataset, as the data is skewed by extraneous data points. When a log trsnsformation is performed, the focus shifts from the actual quantiy of the data point to the _difference in size of data points_, which tends to be a much smaller range than the original, skewed data set. A log transformation is unhelpful in this case becuase the data (life expectancy) already exists on a small scale (from about 0-100). The graphs then has no effect on this data and the graphs will look about the same before and after a log transformation. Even though they look the same, the graph for the inital transformation is more helpful becuase the axis are easier to interpret.
