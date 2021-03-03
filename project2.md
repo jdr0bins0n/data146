@@ -46,4 +46,12 @@ Both graphs look about the same, but the graph with raw data is more helpful. Lo
 
 ## 4 
 
+Box plot of Population
 
+![](popbox.png)
+
+Box plot of Logarithmic Population
+
+![](logpopbox.png)
+
+The box-and-whiskers plot after th logarithmic transformation of population best communicates the change in population from 1952 to 2007. Since population in this data set is being skewed by countries with much larger populations than the others, a log transformation is helpful in this scenario. In the first set of boxplots, the range of the y axis makes it difficult to parse out individual plots. However, when we reduced the range of the y axis using a log transformation, the plots became much more readable. From the second plot we can spot an upward trend in population throughout the years, most noticeable by the increase in median from 1952 to 2007. 
