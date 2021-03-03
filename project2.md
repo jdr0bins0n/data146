@@ -19,14 +19,14 @@ A beta distribution is a probabilty distribution that measures the success of an
 
 The variables $\alpha$ and $\beta$ describe the probabilities of success in the distribution. Within the beta distribution equation, **$alpha$-1** corresponds to the probability of success of an outcome and **$beta$-1** corresponds to the probability of failure of an outcome. As you increase the $\alpha$ value, the probability of success increases and the distribution shifts to the right (as pictured below)  
 
-![](right skewed.png)
+![](right_skewed.png)
 
 The mean and median of this plot approximate at 70% -- this is the $\alpha$ value I set the random distribution to.
 
 
 On the other hand, if you increase the $\beta$ value, the probability of failure increases and the distribution shifts to the left (as pictured below) 
 
-![](left skewed.png)
+![](left_skewed.png)
 
 The mean and median of this plot approximate at 30% -- this is the $\alpha$ value I set the random distribution to. 
 
