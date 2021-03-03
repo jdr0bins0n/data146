@@ -9,5 +9,5 @@ add any links to html files of md projects/exercises with this format ""https://
 
 [Project 1](https://jdr0bins0n.github.io/data146/project1.html)
 
-[Project 2] (https://jdr0bins0n.github.io/data146/project2.html 
+[Project 2] (https://jdr0bins0n.github.io/data146/project2.html) 
 
