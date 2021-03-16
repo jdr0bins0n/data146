@@ -24,7 +24,7 @@ Standardizing the data did not do much to improve the linear regression score. T
 
 **Non-standardized* 
 
-[!](ridge_nonstand.png)
+![](ridge_nonstand.png)
 
 | Max training score      | Max testing score       |
 | ----------------------- | ----------------------- |
@@ -32,11 +32,11 @@ Standardizing the data did not do much to improve the linear regression score. T
 
 When I ran a ridge regression model without standardizing the data both the testing and training data remained about the same, even when I attempted to narrow the range of the alpha value. The best alpha value appears to be around 250, which is when it starts to asymptote.
 
-[!](ridge_nonstand_2.png)
+![](ridge_nonstand_2.png)
 
 **Standardized**. 
 
-[!](ridge_stand.png)
+![](ridge_stand.png)
 
 | Max training score      | Max testing score       |
 | ----------------------- | ----------------------- |
@@ -44,7 +44,7 @@ When I ran a ridge regression model without standardizing the data both the test
 
 Standardizing the data to complete a ridge regression did not improve my training or testing scores, in fact it actually decreased both scores. The optimal alpha value hovered around 700 and asymptoted at that value. 
 
-[!](ridge_stand_2.png)
+![](ridge_stand_2.png)
 
 No matter how we manipulated the model the features bed, bath, and square footage did not appear to have any correlation with asking price in the Charleston area. Perhaps this is due to the asking price not being an accurate measure of how much a house may cost. I can imagine not many people are experienced in real estate and can give proper appraisals of their home value. They may ask for much higher or much lower than what their house is worth according to the number of beds, baths and square footage. With this in mind, it would make sense if the model performed rather poorly. It may benefit me to look at the actual sales price of the house and compare how well the features of the data can predict the target. 
 
@@ -70,7 +70,7 @@ The linear regression models, both standardized still did very poorly. Between t
 
 *Non-Standardized* 
 
-[!](act_ridge.png)
+![](act_ridge.png)
 
 | Max training score      | Max testing score       |
 | ----------------------- | ----------------------- |
@@ -82,7 +82,7 @@ The linear regression models, both standardized still did very poorly. Between t
 | ----------------------- | ----------------------- |
 | 0.004454887667329477    | -0.04995418127915759    |
 
-[!](act_ridge_stand.png)
+![](act_ridge_stand.png)
 
 Similar to the linear regression model, the ridge regression model did not improve the training or testing scores and similar to the standardized ridge regression of the asking price data, the rige regression performed *more* poorly than a linear regression model.
 In both cases, when I shrank the range of alpha values, centering it around the value that the range asymptoted at, the testing and training scores only improved marginally.
