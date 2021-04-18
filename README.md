@@ -12,3 +12,5 @@ add any links to html files of md projects/exercises with this format ""https://
 [Project 2](https://jdr0bins0n.github.io/data146/project2.html) 
 
 [Project 3](https://jdr0bins0n.github.io/data146/project3.html)
+
+[Project 5](https://jdr0bins0n.github.io/data146/project5.html)
