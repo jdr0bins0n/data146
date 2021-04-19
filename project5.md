@@ -17,7 +17,7 @@ The optimal alpha value was 0 and gave the test data score of 0.733 and train da
 ## WealthI
 
 **Perform a linear regression and compute the MSE. Standardize the features and again computer the MSE. Compare the coefficients from each of the two models and describe how they have changed**
-Similar to the wealthC, standardizing the data did not do much to increase the  𝑅2  value. For wealthI, the coefficient of determination was 0.824, which is marginally better than the results of wealthC. However, the MSE was gregariously large, which is concerning. The MSE for both the standardized and non-standardized data was 1,773,535,271, which should mean that the model is able to accurately predict the target variable.
+Similar to the wealthC, standardizing the data did not do much to increase the  𝑅^2  value. For wealthI, the coefficient of determination was 0.824, which is marginally better than the results of wealthC. However, the MSE was gregariously large, which is concerning. The MSE for both the standardized and non-standardized data was 1,773,535,271, which should mean that the model is able to accurately predict the target variable.
 
 **Run a ridge regression and report your best results.**
 
@@ -29,4 +29,16 @@ The optimal value for the Lasso regression was `0.00` and had the same $R^2$ and
 
 **Which of the models produced the best results in predicting wealth of all persons throughout the smaller West African country being described? Support your results with plots, graphs and descriptions of your code and its implementation. You are welcome to incorporate snippets to illustrate an important step, but please do not paste verbose amounts of code within your project report. Alternatively, you are welcome to provide a link in your references at the end of your (part 1) Project 5 report.**
 
-The model that produced the best results in predicting wealth of all persons throughout the smaller West African country was the linear regression model of the target wealthI. This model was the best becuase it had the highest  𝑅2  value as well as the lowest MSE. Both these values indicate that the data is fairly correlated and the feautures can be used to predict the target value fairly well.
+The model that produced the best results in predicting wealth of all persons throughout the smaller West African country was the linear regression model of the target wealthI. This model was the best becuase it had the highest  𝑅^2  value as well as the lowest MSE. Both these values indicate that the data is fairly correlated and the feautures can be used to predict the target value fairly well.
+
+In deciding the best model I went through and modeled the data's ability to predict both wealthC and wealthI using linear, ridge, and lasso regression. For the first run-through of linear regression I attempted to standardize the data to see if it would increase the $R^2$, but standardizing had little affect. From then on I only used the original data in modeling. When calculating linear regression I also plotted the predicted vs observed data to see if I could observe any general trends: 
+
+![](graph1.png)
+
+Not only does this graph confirm the upward trend that the $R^2$ value already indicated, it shows that the predicted and the observed were close together. Both the y and x axis are bewteen 1 and 6 and while it would be ideal that the values are clustered closer together, what we are observing is pretty good. To take a closer look at this, I calculated the MSE and plotted the difference between the predicted and observed values:
+
+![](graph2.png)
+
+As you can see in the graph above, the MSE for the linear regression model of wealthI centered around 0, which is what we want from a predictive model. As stated before, the  MSE for the model was 0.447.  
+
+After my initial observations, I continued testing different models, getting both the MSE and the $R^2$ values, but no other model performed as well as the linear regression model of WealthI. 
