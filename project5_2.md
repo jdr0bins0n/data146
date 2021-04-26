@@ -36,8 +36,7 @@ Standardized data for random forest  model
 
 **Repeat the previous steps after recoding the wealth classes 2 and 3 into a single outcome. Do any of your models improve? Are you able to explain why your results have changed?**
 
-Once the wealth 2 and 3 categories were merged, every model did extremely better. Both the K-Nearest Neighbors classification models scored close to 100% acurracy at 10 neighbors. 
-(((((((((((lalalala stuff about regression and random forests))))))))))))))
+Once the wealth 2 and 3 categories were merged, every model did extremely better. All classification models scored close to 100% acurracy at 10 neighbors. 
 
 
 Non Weighted KNN
